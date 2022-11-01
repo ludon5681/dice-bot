@@ -1,0 +1,11 @@
+it's not the index file (dice is thinking always runs)
+it's not the embed (ran the embed with a static array and it worked perfectly)
+it IS in the promise (reintroduced the promise and it broke again)
+    - it's not the readstream (removed everything else)
+    - it's not .pipe (isolated it)
+    - it's not .on (isolated it)
+    - it's not noodle = row
+    - meaning it must be the conditional
+
+It was regenerating the random number every time it compared - sometimes there would be a collision, sometimes not.
+Moved the random number outside of the promise function - should stop it from running every time.

@@ -1,0 +1,20 @@
+{
+  "name": "dice-rolling-bot",
+  "version": "1.0.0",
+  "description": "A discord bot that allows people to roll dice, to be used for a discord server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "discord",
+    "dice",
+    "random"
+  ],
+  "author": "Luca Donais",
+  "license": "MIT",
+  "dependencies": {
+    "csv": "^6.2.1",
+    "discord.js": "^14.6.0"
+  }
+}
